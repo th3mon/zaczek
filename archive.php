@@ -56,7 +56,7 @@
 
 								<section class="entry-content clearfix">
 
-									<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
+									<?php the_post_thumbnail( 'bones-thumb-300', array('class' => 'wp-caption alignleft') ); ?>
 
 									<?php the_excerpt(); ?>
 

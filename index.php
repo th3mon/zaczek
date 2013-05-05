@@ -26,6 +26,7 @@
 								</header> <!-- end article header -->
 
 								<section class="entry-content clearfix">
+									<?php the_post_thumbnail( 'bones-thumb-300', array('class' => 'wp-caption alignleft') ); ?>
 									<?php echo get_the_excerpt(); ?>
 								</section> <!-- end article section -->
 
